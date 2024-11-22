@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #36d83b;
+    --secondary-color: #2196f3;
+    --text-color: rgb(235, 0, 0);
+    --background-color: #f9f9f9;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
